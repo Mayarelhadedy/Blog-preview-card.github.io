@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Inter:wght@500;700&family=Oswald:wght@700&display=swap");
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+  font-weight: 600;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  padding: 20px 20px;
+  width: 420px;
+  height: 500px;
+}
+.header {
+  padding: 10px;
+}
+
+.sora {
+  border-radius: 18px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+h1 {
+  background-color: hsl(47, 88%, 63%);
+
+  font-size: 12px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 5px;
+
+  width: 55px;
+  height: 20px;
+}
+.develop {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.para {
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
+}
+h2:hover {
+  color: hsl(47, 88%, 63%);
+}
